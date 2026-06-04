@@ -1,4 +1,21 @@
-# -Lifelong-Learning-of-Obstacle-Influence
+# Lifelong Learning of Obstacle Influence
+
+This repository provides supplementary source code for the published article:
+
+> Jiyeong Chae, Sanghoon Lee, Hyunkyo Seo, and Kyung-Joon Park,
+> "From issues to routes: A cooperative costmap with lifelong learning for Multi-AMR navigation,"
+> Journal of Industrial Information Integration, vol. 48, Article 100941, 2025.
+> DOI: https://doi.org/10.1016/j.jii.2025.100941
+
+## Repository role
+
+This repository contains the Python simulator used to evaluate the lifelong-learning mechanism for obstacle influence.
+For the ROS 2 / Gazebo implementation of the cooperative costmap layer, see:
+https://github.com/chaejiyeong/gazebo-simulator-for-cooperative-costmap
+
+## License
+
+This code is released under the Unlicense. See `LICENSE` for details.
 
 # A Cooperative Costmap with Lifelong Learning for Multi-Robot Navigation
 
@@ -117,18 +134,4 @@ You can also **apply previously learned lambda values** to start the simulation 
 
 ---
 
-## License
 
-This code is made available for academic purposes accompanying a manuscript submission to JIII.
-
-**Note: Unauthorized reproduction, distribution, or modification of this code is strictly prohibited.**
-
-© 2025 Anonymous Authors. All rights reserved.
-
----
-
-## Contact
-
-If you have questions regarding the paper or this simulation framework, please refer to the official JIII manuscript submission.
-
----
