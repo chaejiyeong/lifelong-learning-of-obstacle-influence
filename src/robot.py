@@ -1,14 +1,11 @@
 """
-------------------------------------------------------------------------------
-Copyright (c) 2025 Anonymous Authors. All rights reserved.
+Supplementary source code for:
+"From issues to routes: A cooperative costmap with lifelong learning for Multi-AMR navigation"
+Journal of Industrial Information Integration, 48, 100941, 2025.
+DOI: 10.1016/j.jii.2025.100941
 
-This source code accompanies the manuscript entitled
-"Cooperative Probabilistic Costmap with Lifelong Learning for Multi‑Robot Navigation,"
-submitted to the Conference on Robot Learning (CoRL) 2025.
-
-Unauthorized reproduction, distribution, or modification of this code in any form
-without the express written consent of the authors is strictly prohibited.
-------------------------------------------------------------------------------
+Authors: Jiyeong Chae, Sanghoon Lee, Hyunkyo Seo, and Kyung-Joon Park.
+License: Unlicense.
 """
 
 import random
