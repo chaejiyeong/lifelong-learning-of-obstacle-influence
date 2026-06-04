@@ -17,12 +17,6 @@ https://github.com/chaejiyeong/gazebo-simulator-for-cooperative-costmap
 
 This code is released under the Unlicense. See `LICENSE` for details.
 
-# A Cooperative Costmap with Lifelong Learning for Multi-Robot Navigation
-
-This repository accompanies the paper:
-
-> **"A Cooperative Costmap with Lifelong Learning for Multi‑Robot Navigation"** 
-
 It contains the source code for simulating a warehouse-like environment where multiple AMRs perform missions while collaboratively building and adapting a costmap over time.
 
 ---
@@ -31,14 +25,18 @@ It contains the source code for simulating a warehouse-like environment where mu
 
 ```bash
 .
-├── grid_map.py            # Grid map model and visualization
-├── robot.py               # Robot behavior, navigation, and learning logic
-├── obstacle.py            # Dynamic obstacle management
-├── grid_map_widget.py     # PyQt5 GUI for simulation control and visualization
-├── gui.py                 # Overall application GUI management
-├── main.py                # Entry point to launch the simulation
-├── README.md              # (You are here)
-└── logs/                  # Folder where mission logs and learned lambda values are saved
+├── README.md
+├── LICENSE
+└── src/
+    ├── main.py
+    ├── main_grid_map.py
+    ├── grid_map.py
+    ├── grid_map_widget.py
+    ├── gui.py
+    ├── obstacle.py
+    ├── robot.py
+    ├── map.csv
+    └── logs/
 ```
 
 ---
